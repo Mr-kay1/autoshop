@@ -1,4 +1,31 @@
 @media(max-width: 500px){
+    nav{
+        background-color: #0b132b;
+    }
+    .email{
+        color: #ef9b0f;
+    }
+    .navbar-brand{
+        color: antiquewhite;
+    }
+    .bg-about{
+        background-color: antiquewhite;
+    }
+    .navbar-logo{
+        color: #0b132b;
+    }
+    .item a{
+        color: #000 !important;
+    }
+    .item a:hover{
+        color: #ef9b0f !important;
+    }
+    .about-email{
+        color: #0b132b;
+    }
+    /* .about-span{
+        color: #0b132b;
+    } */
     .banner{
         height: 400px;
         background-image:url('../images/eeet.jpg');
@@ -18,10 +45,13 @@
     }
     .nav-item a{
         font-size: 1.3em;
-        color: #fff;
+        color: #ef9b0f;
     }
     .nav-item a:hover{
-        color: #ef9b0f;
+        color: #0b132b;
+    }
+    .home-item a:hover{
+        color: antiquewhite !important;
     }
     .content{
         margin-top: 18rem;
@@ -54,5 +84,22 @@
     }
     .contact-btn{
         margin-bottom: 1em;
+    }
+}
+@media(max-width: 320px){
+    .button{
+        width: 45%;
+    }
+    .home-heading{
+        font-size: 1.7em;
+    }
+    .btns{
+        width: 45%;
+        padding: 10px;
+    }
+}
+@media(max-width: 768px){
+    .contact-btn{
+        width: 40%;
     }
 }

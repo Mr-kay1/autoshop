@@ -5,19 +5,15 @@
 	box-sizing: border-box;
 	font-family: Montserrat, "roboto-slab", roboto;
 }
-
-html{
-    scroll-behavior: smooth;
-}
-
 /*navigation section*/
 .navbar-toggler{
     background-color: #ef9b0f;
 }
+.navbar-toggler:focus{
+	box-shadow: none;
+}
 nav{
-	height: 100px;
 	box-shadow: 5px 5px 20px lightslategrey;
-	position: fixed;
 }
 .navbar-brand{
 	color: #000;
@@ -85,7 +81,7 @@ button a:hover{
 	justify-content: center;
 }
 .wrapper{
-	background-color: #0B132B;
+	background-color: #0b132b;
 	height: 165px;
 }
 
@@ -194,9 +190,7 @@ p{
 .about-content{
     background-color: #7D7C7A;
 }
-.img{
-    height: 100%;
-}
+
 .about-us{
 	background-color: #0B132B;
     color: antiquewhite;
