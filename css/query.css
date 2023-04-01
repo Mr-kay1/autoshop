@@ -1,0 +1,58 @@
+@media(max-width: 500px){
+    .banner{
+        height: 400px;
+        background-image:url('../images/eeet.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: left top; */
+        background-attachment: fixed;
+    }
+
+    .number{
+        color: #fff;
+        font-size: 1.3em;
+    }
+    .mechanic{
+        margin-top: 10rem;
+        font-size: 2em;
+    }
+    .nav-item a{
+        font-size: 1.3em;
+        color: #fff;
+    }
+    .nav-item a:hover{
+        color: #ef9b0f;
+    }
+    .content{
+        margin-top: 18rem;
+    }
+    .para1{
+        text-align: start;
+    }
+    .btns{
+        width: 40%;
+    }
+
+    /* about us */
+    h5{
+        font-size: 1.2em;
+    }
+    .about{
+        font-size: 2.5em;
+    }
+    .para2{
+        font-size: 1.1em;
+    }
+    .button{
+        width: 35%;
+    }
+    .text{
+        text-align: start;
+    }
+    .text-title{
+        text-align: center;
+    }
+    .contact-btn{
+        margin-bottom: 1em;
+    }
+}
