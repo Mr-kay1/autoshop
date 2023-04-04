@@ -6,12 +6,13 @@
 	font-family: Montserrat, "roboto-slab", roboto;
 }
 /*navigation section*/
-.navbar-toggler{
-    background-color: #ef9b0f;
-}
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(239, 155, 15)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 .navbar-toggler:focus{
 	box-shadow: none;
-}
+	outline: none;
+}  
 nav{
 	box-shadow: 5px 5px 20px lightslategrey;
 }
@@ -26,14 +27,14 @@ nav{
 	color: #000;
 }
 .nav-item a:hover{
-	color: #ef9b0f;
+	color: rgb(239, 155, 15);
 }
 ul li{
 	
 	padding: 30px;
 }
 
-span{
+.logo-name{
 	color: #ef9b0f;
 }
 
@@ -316,6 +317,13 @@ h5{
 	background-color: #0B132B;
     color: antiquewhite;
 }
+.service-deet{
+	text-decoration: none;
+	color: antiquewhite;
+}
+.service-deet:hover{
+	color: antiquewhite;
+}
 .param{
     text-align: center;
 }
@@ -351,6 +359,27 @@ h5{
 	text-shadow: 5px 5px 10px transparent;
 }
 
+/* more services */
+.engine-para{
+	font-size: 1.5em;
+}
+.engine-para2{
+	font-size: 1.2em;
+}
+.more-services{
+	background-color: #1C2541;
+	color: antiquewhite;
+}
+.engine-ignore{
+	font-weight: bold;
+}
+.engine-contact{
+	text-decoration: none;
+	color: #ef9b0f;
+}
+.engine-contact:hover{
+	color: #ef9b0f;
+}
 
 
 
